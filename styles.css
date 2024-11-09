@@ -1,0 +1,262 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background: url('giphy.gif') no-repeat center center fixed;
+    background-size: cover;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.button {
+    background: #444;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background 0.3s, color 0.3s;
+}
+
+.button:hover {
+    background: #333;
+}
+
+/* Section Styling */
+section {
+    background: rgba(0, 0, 0, 0.8);
+    margin: 3rem auto;
+    padding: 2rem;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #ff9900;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+/* Skills Section */
+#skills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#skills li {
+    background: #444;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: transform 0.3s;
+}
+
+#skills li:hover {
+    transform: scale(1.05);
+}
+
+/* Experience Section */
+.experience-item {
+    background: #333;
+    margin: 1rem 0;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.experience-item h3 {
+    color: #ff9900;
+    margin-bottom: 1rem;
+}
+
+.experience-item p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Projects Section */
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.project-item {
+    background: #444;
+    color: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.project-item h3 {
+    color: #ff9900;
+    margin-bottom: 1rem;
+}
+
+.project-item p {
+    margin-bottom: 1rem;
+}
+
+.project-item a {
+    background: #555;
+    padding: 1rem 2rem;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.project-item a:hover {
+    background: #333;
+}
+
+/* Contact Section */
+#contact {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.contact-icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.contact-icon:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+/* Navbar Styling */
+nav {
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav ul li {
+    font-size: 1.2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background: #ff9900;
+    color: #333;
+}
+
+/* Add padding to body to prevent content from being hidden behind the navbar */
+body {
+    padding-top: 60px; /* Adjust this value if necessary based on navbar height */
+}
+/* Resume Section */
+#resume {
+    background: rgba(0, 0, 0, 0.8);
+    margin: 3rem auto;
+    padding: 2rem;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#resume h2 {
+    font-size: 2.5rem;
+    color: #ff9900;
+    margin-bottom: 1.5rem;
+}
+
+.resume-box {
+    position: relative;
+}
+
+#resumeImg {
+    display: none;
+    margin-top: 2rem;
+}
+
+#resumeImg img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+#resumeBtn {
+    background: #444;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+#resumeBtn:hover {
+    background: #333;
+}
