@@ -16,7 +16,7 @@ I'm a passionate developer, creator, and lifelong learner, dedicated to building
 
 ## 🛠️ Skills
 
-- **Languages:** JavaScript, Python, HTML, CSS, TypeScript
+- **Languages:** JavaScript, Python, HTML, CSS, TypeScript 
 - **Frameworks/Libraries:** React, Node.js, Express, Next.js
 - **Databases:** MongoDB, MySQL
 - **Cloud:** AWS, Azure, Firebase
